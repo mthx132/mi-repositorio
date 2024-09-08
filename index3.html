@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style3.css" />
+</head>
+<body>
+    <section>
+        <h1>Inscripción</h1>
+        <h3>El primer equipo de babys</h3>
+
+        <div id="input-container">
+            <label class="label">Name</label>
+            <input type="text" placeholder="Enter your name" id="input" />
+
+            <label class="age">Age</label>
+            <input type="text" placeholder="age" id="input" />
+
+            <label class="age">What’s your Elo?</label>
+            <select name="Select" id="elo-select">
+                <option value="" disabled selected>Select current elo</option>
+                <option value="hierro">Hierro</option>
+                <option value="bronce">Bronce</option>
+                <option value="plata">Plata</option>
+                <option value="oro">Oro</option>
+                <option value="platino">Platino</option>
+                <option value="diamante">Diamante</option>
+                <option value="maestro">Maestro</option>
+            </select>
+
+            <!--  Casillas de verificación -->
+            <div class="checkbox-container">
+                <input type="checkbox" id="checkbox-top">
+                <label for="checkbox-top">Top</label>
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="checkbox-jungle">
+                <label for="checkbox-jungle">Jungle</label>
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="checkbox-mid">
+                <label for="checkbox-mid">Mid</label>
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="checkbox-adc">
+                <label for="checkbox-adc">Adc</label>
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="checkbox-sup">
+                <label for="checkbox-sup">Sup</label>
+            </div>
+
+            <!-- Email -->
+            <label class="age">Email</label>
+            <input type="email" id="input" placeholder="Email"/>
+
+            <!-- Multiple Choice -->
+            <div class="radio-container">
+                <input type="radio" id="radio1" name="rating" value="malisimo">
+                <label for="radio1">Malisimo</label>
+            </div>
+
+            <div class="radio-container">
+                <input type="radio" id="radio2" name="rating" value="buenisimo">
+                <label for="radio2">Buenisimo</label>
+            </div>
+
+            <!-- Textarea -->
+            <div>
+                <textarea id="input" cols="30" rows="15" placeholder="Enter your comment here" name="Comentario" style="height: 40px; width: 468px; resize: none;"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div>
+                <button type="submit" id="submit" style="height: 36px; width: 338px;">Submit</button>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
